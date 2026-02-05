@@ -1,0 +1,64 @@
+/* === CSS RESET === */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  pointer-events: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Lists */
+ul, ol {
+  list-style: none;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+  pointer-events: initial;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Forms */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+  pointer-events: initial;
+}
+
+button {
+  cursor: pointer;
+  pointer-events: initial;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
