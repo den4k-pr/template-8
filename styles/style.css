@@ -66,6 +66,7 @@
     height: 39px;
     gap: 5px;
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
 }
