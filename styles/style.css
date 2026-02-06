@@ -111,10 +111,7 @@
 }
 
 .title span {
-    background: linear-gradient(90deg, #ff1900 0%, #e54e39 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #f72109;
 }
 
 .animatedArea {
@@ -313,7 +310,7 @@ animation: heartbeatbutton 1.6s ease-in-out infinite;
 
 
 .priceBlock-bottom-text {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 24px;
     line-height: 100%;
     letter-spacing: 0.08em;
@@ -719,7 +716,7 @@ animation: heartbeatbutton 1.6s ease-in-out infinite;
 
 .section-4-baners-item-title {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 100%;
     text-transform: uppercase;
     cursor: pointer;
@@ -1164,8 +1161,16 @@ animation: heartbeatbutton 1.6s ease-in-out infinite;
     justify-content: space-between;
     padding: 15px 0;
     width: 100%;
-    max-width: 200px;
+    max-width: 320px;
     margin: 0 auto;
+}
+
+.support_link {
+    text-align: center;
+    color: #cacaca;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: underline;
 }
 
 .contacts-nav a {
@@ -1351,6 +1356,7 @@ text-align: center;
 
 .section-4-baners-item.active .section-4-baners-item-content {
     opacity: 1;
+    max-height: 300px !important;
 }
 
 .asksContainer-item p {
@@ -1360,6 +1366,7 @@ text-align: center;
 .asksContainer-item-bottom p {
     max-width: 100%;
     padding-right: 10px;
+    line-height: 18px;
 }
 
 .section-3 {
@@ -1389,11 +1396,19 @@ text-align: center;
         font-size: 20px;
         margin-bottom: 20px;
     }
+
+    .section-4-baners-item-text{
+        font-size: 13px;
+    }
 }
 
 @media(max-width: 375px) {
     .mainTitle {
         font-size: 45px;
+    }
+
+    .section-4-baners-item-text{
+        font-size: 12px;
     }
 }
 
@@ -1459,4 +1474,10 @@ text-align: center;
   100% {
     transform: scale(1);
   }
+}
+
+.contacts-nav a img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
 }
